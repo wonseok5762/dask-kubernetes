@@ -627,7 +627,7 @@ class KubeCluster(SpecCluster):
                     "host": self.host,
                     "port": self.port,
                     "dashboard_address": self._dashboard_address,
-                    "worker_ttl": "1200s",
+                    "worker_ttl": "1800s",
                     "security": self.security,
                 },
             }
